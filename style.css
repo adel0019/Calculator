@@ -1,8 +1,8 @@
+/* Background image by https://unsplash.com/@scottwebb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
 body {
     font-family:'Open Sans';
 }
-
-
 
 html { 
     background: url(https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80) no-repeat center center fixed; 
@@ -10,4 +10,14 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  #calculator {
+      width:320px;
+      height:520px;
+      background-color:white;
+      margin: 0 auto;
+      margin-top:30px;
+      border-radius:5px;
+      box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6x 20px 0 rgba(0, 0, 0, 0.19);
   }
