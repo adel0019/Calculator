@@ -38,6 +38,9 @@ html {
       font-size:15px;
       color:grey;
   }
+  #history-value {
+      text-align:right;
+  }
 
   #output {
       text-align:right;
@@ -58,11 +61,36 @@ html {
       outline:0;
   }
 
-  .empty {
+  .empty, .number {
       background-color:white;
   }
 
   .number, .operator {
       cursor: pointer;
-
   }
+
+  .number:hover {
+      background-color:orange;
+      color:white;
+  }
+
+  button:nth-child(4){
+      font-size:20px;
+      background-color:#20b2aa;
+  }
+  button:nth-child(8){
+    font-size:20px;
+    background-color:#ffa500;
+}
+button:nth-child(12){
+    font-size:20px;
+    background-color:lightcoral;
+}
+button:nth-child(16){
+    font-size:20px;
+    background-color:#7d93e0;
+}
+button:nth-child(20){
+    font-size:25px;
+    background-color:#9477af;
+}
