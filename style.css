@@ -36,10 +36,13 @@ html {
       margin:0 20px;
       padding-top:20px;
       font-size:15px;
-      color:grey;
+      color:#919191;
   }
   #history-value {
       text-align:right;
+      margin:0 20px;
+      padding-top:20px;
+      font-size:15px;
   }
 
   #output {
